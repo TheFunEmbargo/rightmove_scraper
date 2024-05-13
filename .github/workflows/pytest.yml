@@ -28,4 +28,5 @@ jobs:
         run: poetry install
 
       - name: Run Pytest
+        working-directory: ./rightmove_scraper
         run: poetry run pytest
