@@ -1,0 +1,82 @@
+[
+  {
+    "id": "147677074",
+    "available": true,
+    "archived": false,
+    "phone": "0123 456 7890",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "BUY",
+    "property_type": "Maisonette",
+    "tags": [],
+    "description": "Welcome to Hotel California - a charming maisonette set over two floors, boasting 2 bedrooms and 2 bathrooms. This lovely property offers the perfect blend of space and modern convenience.<br /><br />Located close to the vibrant Main Street, this maisonette provides easy access to local amenities, cafes, and restaurants, making it an ideal spot for those who appreciate a street with a community feel.<br /><br />The property features an open plan living and kitchen area, double bedroom and bathroom to the first floor. The second floor offers a large bright bedroom with ensuite bathroom.<br /><br />Don't miss the opportunity to make this lovely property your own - Please call to view!<br />Lease term: 999 years. Service Charge: £0.<br /><br /><b>First Floor</b> - <br /><br /><b>Living / Kitchen</b> - 4.67 x 2.79 (15'3\" x 9'1\") - <br /><br /><b>Bedroom Two</b> - 3.29 x 4.49 (10'9\" x 14'8\") - <br /><br /><b>Bathroom</b> - 1.68 x 2.42 (5'6\" x 7'11\") - <br /><br /><b>Second Floor</b> - <br /><br /><b>Bedroom One</b> - 5.26 x 4.38 (17'3\" x 14'4\") - <br /><br /><b>Ensuite</b> - 1.29 x 1.83 (4'2\" x 6'0\") - <br /><br />",
+    "title": "2 bedroom maisonette for sale in Hotel California",
+    "subtitle": "2 bedroom maisonette",
+    "price": "£230,000",
+    "price_sqft": null,
+    "address": {
+      "displayAddress": "Hotel California",
+      "countryCode": "GB",
+      "deliveryPointId": null,
+      "ukCountry": "England",
+      "outcode": "AB12",
+      "incode": "3CD"
+    },
+    "latitude": 15.326572,
+    "longitude": -76.157227,
+    "features": [
+      "MAISONETTE",
+      "TWO DOUBLE BEDROOMS",
+      "OPEN PLAN LOUNGE/KITCHEN",
+      "MODERN BATHROOM",
+      "ENSUITE SHOWER",
+      "OVER TWO FLOORS",
+      "CLOSE TO MAIN STREET",
+      "NO CHAIN"
+    ],
+    "history": { "listingUpdateReason": "Added on 07/05/2024" },
+    "images": [
+      {
+        "url": "https://example.com/photo1.jpg",
+        "caption": "Photo 1"
+      },
+      {
+        "url": "https://example.com/photo2.jpg",
+        "caption": "Photo 2"
+      },
+      {
+        "url": "https://example.com/photo3.jpg",
+        "caption": "Photo 3"
+      }
+    ],
+    "floorplans": [
+      {
+        "url": "https://example.com/floorplan.jpg",
+        "caption": "Floorplan"
+      }
+    ],
+    "agency": {
+      "id": 12345,
+      "branch": "Hotel California",
+      "company": "Come Anytime Estate Agents",
+      "address": "123 Main Street,\r\nCalifornia,\r\nEngland,\r\nAB12 3CD",
+      "commercial": false,
+      "buildToRent": false,
+      "isNew": false
+    },
+    "industryAffiliations": ["Local Estate Agents Association"],
+    "nearest_airports": [],
+    "nearest_stations": [
+      { "name": "Hotel California Station", "distance": 0.1 },
+      { "name": "Main Street Station", "distance": 0.5 },
+      { "name": "Downtown Station", "distance": 1.2 }
+    ],
+    "sizings": [],
+    "brochures": [
+      {
+        "url": "https://example.com/brochure.pdf",
+        "caption": "Property Brochure"
+      }
+    ]
+  }
+]

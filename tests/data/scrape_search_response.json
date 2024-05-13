@@ -1,0 +1,141 @@
+[
+  {
+    "id": 147625841,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "numberOfImages": 10,
+    "numberOfFloorplans": 1,
+    "numberOfVirtualTours": 0,
+    "summary": "An ideal first home, one bedroom arranged over two floors with parking, bike storage, and no onward chain.",
+    "displayAddress": "Central Hall, Seaview, Atlantis, AT1 2BC",
+    "countryCode": "GB",
+    "location": { "latitude": 15.326572, "longitude": -76.157227 },
+    "propertyImages": {
+      "images": [
+        {
+          "srcUrl": "https://example.com/photo1.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_00_0000.jpeg",
+          "caption": "Photo 13"
+        },
+        {
+          "srcUrl": "https://example.com/photo2.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_01_0000.jpeg",
+          "caption": "Photo 5"
+        },
+        {
+          "srcUrl": "https://example.com/photo3.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_02_0000.jpeg",
+          "caption": "Photo 1"
+        },
+        {
+          "srcUrl": "https://example.com/photo4.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_03_0000.jpeg",
+          "caption": "Photo 3"
+        },
+        {
+          "srcUrl": "https://example.com/photo5.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_04_0000.jpeg",
+          "caption": "Photo 6"
+        },
+        {
+          "srcUrl": "https://example.com/photo6.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_05_0000.jpeg",
+          "caption": "Photo 12"
+        },
+        {
+          "srcUrl": "https://example.com/photo7.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_06_0000.jpeg",
+          "caption": "Photo 10"
+        },
+        {
+          "srcUrl": "https://example.com/photo8.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_07_0000.jpeg",
+          "caption": "Photo 8"
+        },
+        {
+          "srcUrl": "https://example.com/photo9.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_08_0000.jpeg",
+          "caption": "Photo 7"
+        },
+        {
+          "srcUrl": "https://example.com/photo10.jpg",
+          "url": "11k/10945/147625841/10945_OBB-24525962_IMG_09_0000.jpeg",
+          "caption": "Photo 11"
+        }
+      ],
+      "mainImageSrc": "https://example.com/photo1.jpg",
+      "mainMapImageSrc": "https://example.com/photo11.jpg"
+    },
+    "propertySubType": "Flat",
+    "listingUpdate": {
+      "listingUpdateReason": "new",
+      "listingUpdateDate": "2024-05-04T00:06:05Z"
+    },
+    "premiumListing": false,
+    "featuredProperty": true,
+    "price": {
+      "amount": 225000,
+      "frequency": "not specified",
+      "currencyCode": "GBP",
+      "displayPrices": [
+        {
+          "displayPrice": "\u00a3225,000",
+          "displayPriceQualifier": "Guide Price"
+        }
+      ]
+    },
+    "customer": {
+      "branchId": 10945,
+      "brandPlusLogoURI": "/11k/10945/branch_rmchoice_logo_10945_0003.jpeg",
+      "contactTelephone": "0117 463 0091",
+      "branchDisplayName": "Ocean, Atlantis",
+      "branchName": "Atlantis",
+      "brandTradingName": "Ocean",
+      "branchLandingPageUrl": "/estate-agents/agent/Ocean/Atlantis-10945.html",
+      "development": false,
+      "showReducedProperties": true,
+      "commercial": false,
+      "showOnMap": true,
+      "enhancedListing": false,
+      "developmentContent": null,
+      "buildToRent": false,
+      "buildToRentBenefits": [],
+      "brandPlusLogoUrl": "https://example.com/logo.jpg"
+    },
+    "distance": null,
+    "transactionType": "buy",
+    "productLabel": { "productLabelText": "", "spotlightLabel": false },
+    "commercial": false,
+    "development": false,
+    "residential": true,
+    "students": false,
+    "auction": false,
+    "feesApply": false,
+    "feesApplyText": null,
+    "displaySize": "",
+    "showOnMap": true,
+    "propertyUrl": "/properties/147625841#/?channel=RES_BUY",
+    "contactUrl": "/property-for-sale/contactBranch.html?propertyId=147625841",
+    "staticMapUrl": null,
+    "channel": "BUY",
+    "firstVisibleDate": "2024-05-04T00:01:01Z",
+    "keywords": [],
+    "keywordMatchType": "no_keyword",
+    "saved": false,
+    "hidden": false,
+    "onlineViewingsAvailable": false,
+    "lozengeModel": { "matchingLozenges": [] },
+    "hasBrandPlus": true,
+    "displayStatus": "",
+    "enquiredTimestamp": null,
+    "enquiryAddedTimestamp": null,
+    "enquiryCalledTimestamp": null,
+    "heading": "Featured Property",
+    "isRecent": false,
+    "enhancedListing": false,
+    "addedOrReduced": "Added on 04/05/2024",
+    "formattedBranchName": " by Ocean, Atlantis",
+    "formattedDistance": "",
+    "propertyTypeFullDescription": "1 bedroom flat for sale"
+  }
+]
