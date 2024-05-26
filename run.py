@@ -2,10 +2,14 @@ from src.rightmove import RightMoveAPI
 from src.utils import haversine, Point
 from src.db import db
 import src.config as config
+from src.log import logger
+
+log = logger.get(__name__)
 
 
 def transform(properties):
     # calculate distance to center
+    log.info("transforming")
     for property in properties:
         property_point = Point(
             property["location"]["longitude"], property["location"]["latitude"]
