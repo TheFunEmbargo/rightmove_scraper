@@ -1,5 +1,5 @@
 import pytest
-from rightmove import RightMoveAPI, Property
+from src.rightmove import RightMoveAPI, Property
 
 
 @pytest.mark.parametrize(
