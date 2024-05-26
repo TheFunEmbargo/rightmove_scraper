@@ -1,7 +1,7 @@
-from rightmove import RightMoveAPI
-from utils import haversine, Point
-from db import db
-import config
+from src.rightmove import RightMoveAPI
+from src.utils import haversine, Point
+from src.db import db
+import src.config as config
 
 
 def transform(properties):
