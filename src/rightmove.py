@@ -8,6 +8,9 @@ import asyncio
 import json
 from typing import TypedDict
 from urllib.parse import urlencode
+from src.log import logger
+
+log = logger.get(__name__)
 
 
 class Property(TypedDict):
@@ -197,17 +200,21 @@ class RightMoveAPI:
 
     async def _find_locations(self, location: str) -> list[str]:
         """async use rightmove's typeahead api to find location IDs. Returns list of location IDs in most likely order"""
+        log.info(f"Finding rightmove location ids for {location}")
         tokenised_query = self.tokenise(location)
         url = f"https://www.rightmove.co.uk/typeAhead/uknostreet/{tokenised_query.strip('/')}/"
         response = await self.client.get(url)
         data = json.loads(response.text)
-        return [
+        location_ids = [
             prediction["locationIdentifier"]
             for prediction in data["typeAheadLocations"]
         ]
+        log.info(f"Found {len(location_ids)} location ids")
+        return location_ids
 
     async def _scrape_search(self, location_id: str) -> list[Property]:
         """async scrape all properties in the location"""
+        log.info(f"scraping all properties in location id {location_id}")
         RESULTS_PER_PAGE = 24
 
         def make_url(offset: int) -> str:
@@ -248,11 +255,12 @@ class RightMoveAPI:
                 for p in data["properties"]
             ]
             results.extend(properties)
+        log.info(f"found {len(results)} properties")
         return results
 
     async def _scrape_urls(self, urls: list[str]) -> list[Property]:
         """async scrape from property urls"""
-
+        log.info(f"scraping properties from {len(urls)} urls ")
         to_scrape = [self.client.get(url) for url in urls]
         properties = []
         for response in asyncio.as_completed(to_scrape):
