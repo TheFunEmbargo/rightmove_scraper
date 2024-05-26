@@ -4,9 +4,6 @@ from httpx import AsyncClient, Response
 from parsel import Selector
 from typing import TypedDict
 import jmespath
-import asyncio
-import json
-from typing import TypedDict
 from urllib.parse import urlencode
 from src.log import logger
 

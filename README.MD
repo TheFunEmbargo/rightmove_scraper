@@ -6,7 +6,7 @@
 
 Python environment managed with [Poetry](https://python-poetry.org/docs/#installation). To install and active the virtual environment:
 
-`poetry install`
+`poetry install --with dev`
 `poetry shell`
 
 ## Test
